@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Here !!!!"
+            android:gravity="center"
+            android:textColor="#8E44AD"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:shadowColor="@color/colorAccent"
+            android:shadowRadius="50"
+            android:id="@+id/tv"
+            />
+
+
+    </RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:id="@+id/t4"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:gravity="center"
+        android:id="@+id/t1"
+        android:textColorHint="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Branch"
+        android:gravity="center"
+        android:id="@+id/t2"
+        android:textColorHint="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:gravity="center"
+        android:id="@+id/t3"
+        android:textColorHint="#000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        android:onClick="AddData"
+        android:layout_gravity="center"
+        android:background="#BB8FCE"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Fetch Data"
+        android:onClick="fetch"
+        android:padding="10dp"
+        android:background="#A9CCE3"
+        android:layout_marginTop="10dp"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update Data"
+        android:onClick="update"
+        android:padding="10dp"
+        android:background="#58D68D"
+        android:layout_marginTop="10dp"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete Data"
+        android:onClick="delete"
+        android:padding="10dp"
+        android:background="#76D7C4"
+        android:layout_marginTop="10dp"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete All Data"
+        android:onClick="deleteAll"
+        android:padding="10dp"
+        android:background="#F7DC6F"
+        android:layout_marginTop="10dp"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
